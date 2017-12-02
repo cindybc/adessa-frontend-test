@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <title>Document</title>
+    <title>Test Falabella</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="/static/css/main.css">
 </head>
 <body>
     <h1 style="text-align: center">{{ title }}</h1>
-    <section id="app"></section>
+    <section id="app">
+    	<div id="cart">
+    		<span id="price">
+    			<i class="material-icons">shopping_cart</i>
+    			<i class="material-icons">attach_money</i>
+    			<span id="total">0</span>
+    		</span>
+    		<div class="container">
+    			<div class="row" id="product"></div>
+    		</div>
+    	</div>
+    	<div id="boxList">
+    		<h5 class="titleProduct">PRODUCT LIST</h5>
+    		<div class="container">
+    			<div class="row" id="list"></div>
+    		</div>
+    	</div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
+	<script src="/static/js/data.js"></script>
     <script src="/static/js/main.bundle.js"></script>
 </body>
 </html>

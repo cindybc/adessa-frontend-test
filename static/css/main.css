@@ -1,1 +1,37 @@
 /* you can add any styles you think could improve user's experience */
+
+#price{
+	background: green;
+	padding: 20px;
+	color: white;
+}
+
+#total{
+	    font-size: 25px;
+}
+
+#boxList{
+	background: #e0e0e0;
+    padding: 20px;
+}
+
+.btnAdd, .btnRemove{
+	font-size: 10px;
+    padding: 0 10px;
+}
+
+ .btnAdd:hover, .btnRemove:hover{
+	background: green;
+}
+
+.col{
+	text-align: center;
+	margin: 25px;
+	padding: 10px !important;
+	border: 2px solid grey;
+}
+
+.col:hover{
+	box-shadow:  10px 10px 5px #888888;
+    transition: 1s;
+}
